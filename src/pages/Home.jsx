@@ -7,13 +7,13 @@ function Home(){
     inject();
     console.log("Hi Dev :D");
     return (<Main>
-                <H1>Antonio Serra</H1>
+                <H1>Marcello Matos</H1>
                     <DivSoftwareDeveloper>
                         <Typed
                             strings={[
                             "Software Developer",
                             ]}
-                            typeSpeed={100}
+                            typeSpeed={200}
                         />
                     </DivSoftwareDeveloper>
             </Main>
@@ -46,7 +46,7 @@ const H1 = styled.h1`
 
 const DivSoftwareDeveloper = styled.div`
     border-radius: 50px;
-    background-image: linear-gradient(135deg, var(--purple) 30%, var(--pink) 95%);
+    background-image: linear-gradient(135deg, var(--purple) 30%, var(--pink) 40%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
