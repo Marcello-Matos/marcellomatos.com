@@ -6,7 +6,7 @@ function DevTo(){
     const [articles, setArticles] = useState([]);
 
     useEffect(() => {
-        const apiUrl = 'https://dev.to/api/articles?username=antoniorws';
+        const apiUrl = 'https://www.linkedin.com/in/marcello-matos-813199278/';
         axios.get(apiUrl)
         .then(response => {
             setArticles(response.data);

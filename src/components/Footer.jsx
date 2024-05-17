@@ -9,9 +9,9 @@ function Footer(){
         <FooterComponent>
             <SocialMediaNav>
                 <SocialMediaList>
-                    <SocialMediaItem><SocialMediaLink target='_blank' rel='noreferrer' href="https://github.com/antoniorws"><SocialMediaIcon alt='GitHub' src={gitHubImage} /></SocialMediaLink></SocialMediaItem>
-                    <SocialMediaItem><SocialMediaLink target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/antonio-rodrigo-wanderley-serra/"><SocialMediaIcon alt='LinkedIn' src={linkedInImage} /></SocialMediaLink></SocialMediaItem>
-                    <SocialMediaItem><SocialMediaLink target='_blank' rel='noreferrer' href="https://www.instagram.com/antoniowserra/"><SocialMediaIcon alt='Instagram' src={instagramImage} /></SocialMediaLink> </SocialMediaItem>
+                    <SocialMediaItem><SocialMediaLink target='_blank' rel='noreferrer' href="https://github.com/Marcello-Matos"><SocialMediaIcon alt='GitHub' src={gitHubImage} /></SocialMediaLink></SocialMediaItem>
+                    <SocialMediaItem><SocialMediaLink target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/marcello-matos-813199278/"><SocialMediaIcon alt='LinkedIn' src={linkedInImage} /></SocialMediaLink></SocialMediaItem>
+                    <SocialMediaItem><SocialMediaLink target='_blank' rel='noreferrer' href="https://www.instagram.com/matosmarcello676/"><SocialMediaIcon alt='Instagram' src={instagramImage} /></SocialMediaLink> </SocialMediaItem>
                 </SocialMediaList>
                 <P>Marcello Matos • © 2024</P>
             </SocialMediaNav>

@@ -1,22 +1,22 @@
 import React from 'react';
 import styled from "styled-components";
 import JavaImage from '../assets/images/JavaImage.png';
-import ThisSiteImage from '../assets/images/ThisSiteImage.png'
+import ThisSiteImage from '../assets/images/photo Software Developer.jpg'
 import { inject } from '@vercel/analytics';
 
 const cardProjects = [
   {
-    title: "This Web Site",
+    title: "Este é a página do website",
     value: "thisWebSite",
-    description: "Click here and you can see the code from this website.",
-    url: "https://github.com/antoniorws/antoniorwserra.com",
+    description: "Clique aqui e você consegue ver o website dessa página.",
+    url: "https://github.com/Marcello-Matos",
     image: ThisSiteImage
   },
   {
-    title: "Roadmap Java",
+    title: "Rodando em Java",
     value: "Roadmap Java",
-    description: "A GitHub repository with a primary Java trail to start your carrer in Java world.",
-    url: "https://github.com/antoniorws/basic-java",
+    description: "Um repositório GitHub com um guia inicial em Java para começar sua carreira no mundo Java.",
+    url: "https://github.com/Marcello-Matos/trabalho_oficial_html_css_js",
     image: JavaImage
   }
 ];

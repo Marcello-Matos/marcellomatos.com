@@ -12,22 +12,22 @@ function About(){
                 <DivImageAboutImg src={aboutImg} alt="About Image" />
               </DivImageAbout>
               <div>
-                  <P>Very focused professional and very easy to work in a team.</P>
+                  <P>Sempre desafiando meus limites e transformando os desafios em oportunidades para que eu possa conquistar um futuro extraordinário.</P>
                   <P><Inovation><Typed
                             strings={[
-                            "I always look for innovation.",
+                            "Minha busca incessante por inovação alimenta meu desejo de desafiar o status quo e criar soluções que inspirem e transformem.",
                             ]}
                             typeSpeed={50}
-                        /></Inovation> On my journey I was part of MV Sistemas.</P>
-                  <P>Learning the business rules of the Hospital area (mainly the Supplies area).</P>
-                  <P>I was also part of the technology area at Accenture focused on financial services, today I am part of China Systems.</P>
+                        /></Inovation>Um profissional altamente focado e colaborativo, sempre pronto para impulsionar equipes em direção ao sucesso.</P>
+                  <P>Desbravando um novo campo de conhecimento, pronto para absorver as nuances e desafios de uma nova área.</P>
+                  <P>Aprimorando minhas habilidades técnicas para impulsionar projetos inovadores com contribuições significativas.</P>
               </div>
         </MainAbout>
     )
 }
 
 const Inovation = styled.div`
-background-image: linear-gradient(135deg, var(--purple) 0%, var(--pink) 70%);
+background-image: linear-gradient(135deg, var(--purple) 0%, var(--blue) 70%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;

@@ -14,7 +14,6 @@ function App() {
             <Header/>
             <Switch>
                 <Route path={"/about"} component={About}/>
-                <Route path={"/articles"} component={Articles}/>
                 <Route path={"/projects"} component={Projects}/>
                 <Route path="/" component={Home}/>
                 <Redirect to="/"/>

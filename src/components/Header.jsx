@@ -12,11 +12,11 @@ const tabsData = [
     value: "about",
     href: "./about"
   },
-  {
+  /*{
     title: "Articles",
     value: "articles",
     href: "./articles"
-  },
+  },*/
   {
     title: "Projects",
     value: "projects",

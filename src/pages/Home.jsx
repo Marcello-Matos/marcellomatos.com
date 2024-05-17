@@ -13,7 +13,7 @@ function Home(){
                             strings={[
                             "Software Developer",
                             ]}
-                            typeSpeed={200}
+                            typeSpeed={100}
                         />
                     </DivSoftwareDeveloper>
             </Main>
@@ -46,7 +46,7 @@ const H1 = styled.h1`
 
 const DivSoftwareDeveloper = styled.div`
     border-radius: 50px;
-    background-image: linear-gradient(135deg, var(--purple) 30%, var(--pink) 40%);
+    background-image: linear-gradient(135deg, var(--purple) 30%, var(--blue) );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
